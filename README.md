@@ -48,16 +48,16 @@
     2. 打开命令行，并切换到文件夹： cd ~/Desktop/aosp
     3.  repo init -u https://mirrors.tuna.tsinghua.edu.cn/git/AOSP/platform/manifest -b android-10.0.0_r17
     4.  repo sync
-    5. 等待执行完成，中途可能报错，报错原因一般是网络问题。重试一两次就可以。如果在2021年7月4日完成了首次全量同步，故今后每次下载的都是增量
+    5. 等待执行完成，中途可能报错，报错原因一般是网络问题。重试一两次就可以。如果在2022年4月10日完成了首次全量同步，故今后每次下载的都是增量
     6. 特殊说明，如果您现在的时间距离本镜像制作时间太久（2022年4月10日），出现了当前环境没有的分支，比如android 13。那么先执行一次 repo sync 再切换分支即可
 2. 确定分支和下载驱动
     1. 您的手机，需要做在这里查询支持的Android版本，和对应分支: https://source.android.com/setup/start/build-numbers#source-code-tags-and-builds
     2. 下载确定分支之后，需要在这里下载对应的驱动文件: https://developers.google.com/android/drivers#sailfishqp1a.191005.007.a3
     3. 切换完成分支之后，将两个驱动文件解压，然后放置到AOSP目录，执行两个脚本。提取驱动二进制文件
-        1. 请注意，需要同意Google的条款:执行脚本之后，输入 `ctr +c `，然后输入: “I ACCEPT”字样，然后提输入“I ACCEPT”，回车。
+        1. 请注意，需要同意Google的条款:执行脚本,进入条款阅读状态后，输入 `ctr +c `，然后输入: “I ACCEPT”字样，然后提输入“I ACCEPT”，回车。
         2. 之后现实提取了那些文件，代表提取成功
         3. 如果无法成功定位到:“I ACCEPT”的位置，那么可以手动修改对应文件,里面是一个sh，可以直接删除前面的文本，然后修改以下shell的行号偏移内容即可
-3. 据根据Google文档，执行编译操作 https://source.android.com/setup/build/building‘
+3. 据根据Google文档，执行编译操作 https://source.android.com/setup/build/building
     1. 打开命令行，切换到： cd ~/Desktop/aosp
     2. 导入基础环境变量: source build/envsetup.sh
     3. 定ROM ：
