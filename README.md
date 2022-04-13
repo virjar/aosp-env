@@ -19,7 +19,7 @@
 - 其他： 虚拟机设置了12核、64G内存，但是一般的电脑不会有这么高的配置。所以建议你拿到虚拟机文件之后，根据自己的电脑配置适当调整一下
 
 
-## ROM列表 [下载地址](https://pan.baidu.com/s/1DGcxPilfmTDb_hJzXJ9uHg#list/path=%2Faosp_vms)
+## ROM列表 [下载地址](https://pan.baidu.com/s/1DGcxPilfmTDb_hJzXJ9uHg?pwd=sj00)
 - Base: 主要包括虚拟机文件和基础的repo数据，可以方便切换分支。你可以通过他快速拉去任意想要编译的代码环境，本环境可以帮你省略虚拟机环境搭建、代码下载同步、软件安装等操作
 - 已编译：已经完成编译，可以直接增量使用，或者进行刷机
 - 未编译：编译成功后删除了out，确保可以一键编译成功。由于删除了out，所以文件会小40%
@@ -85,7 +85,7 @@
 在Android10之后，Google提供的``aidegen``已经非常可靠了，通过他我们可以非常方面的通过ide直接查看、编辑代码。基本上做到和查看普通项目代码相同的流畅度了。
 请关注Google文档：[其他工具](https://source.android.com/setup/develop?hl=zh-cn)对于AIDEgen的指导:``对于 Android 10 及更高版本，请使用 IntelliJ with AIDEgen IDE 进行 Android 平台开发``,官方教程：[AIDEGen](https://android.googlesource.com/platform/tools/asuite/+/refs/heads/master/aidegen/README.md)
 
-** 请注意，在Android11之后``aidegen``才完整支持clion，所以如果你希望查看c++代码，建议在Android11的源码上面操作 **
+**请注意，在Android11之后``aidegen``才完整支持clion，所以如果你希望查看c++代码，建议在Android11的源码上面操作**
 
 ## 案例：使用clion查看art虚拟机的源码(以``11.0.0_r46_flame_compiled_220410``为例)
 
@@ -94,8 +94,8 @@
 3. 启动clion : aidegen -i c -p /opt/clion-2020.2/bin/
 4. 等待aidegen打开clion即可
 
-** 请注意我们的软件默认安装在 ``/opt``目录下，这里的 ``-p``参数指定了clion的目录**
-** 请注意clion是一个c++的IDE，和Android Studio类似，但是他是收费的，为了降低大家的使用难度和方便环境传播，我们这里使用了破解版本的clion，希望大家在有条件的情况下支持正版**
+**请注意我们的软件默认安装在 ``/opt``目录下，这里的 ``-p``参数指定了clion的目录**
+**请注意clion是一个c++的IDE，和Android Studio类似，但是他是收费的，为了降低大家的使用难度和方便环境传播，我们这里使用了破解版本的clion，希望大家在有条件的情况下支持正版**
 
 
 
