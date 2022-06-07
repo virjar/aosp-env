@@ -31,9 +31,10 @@
 |aosp-all|包含仓库的代码环境|All|否|180G|150G|aosp_base_220410                     |2022-04-10|
 |pixel1  |sailfish       |10 |否| -  |23G |10.0.0_r17_sailfish_uncompiled_220410|2022-04-10|
 |pixel1  |sailfish       |10 |是| -  |31G |10.0.0_r17_sailfish_compiled_220409  |2022-04-10|
-|pixel4  |flame          |11 |否| -  |27G |11.0.0_r46_flame_uncompiled_220410   |2021-08-04|
-|pixel4  |flame          |11 |否| -  |43G |11.0.0_r46_flame_compiled_220410     |2021-08-04|
-
+|pixel4  |flame          |11 |否| -  |27G |11.0.0_r46_flame_uncompiled_220410   |2022-04-10|
+|pixel4  |flame          |11 |否| -  |43G |11.0.0_r46_flame_compiled_220410     |2022-04-10|
+|pixel4  |flame          |12 |否| -  |32G |12.1.0_r5_flame_uncompiled_220608    |2022-06-08|
+|pixel4  |flame          |12 |否|199G|44G |12.1.0_r5_flame_compiled_220608     |2022-06-08|
 
 ## 用法
 
