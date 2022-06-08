@@ -33,8 +33,8 @@
 |pixel1  |sailfish       |10 |是| -  |31G |10.0.0_r17_sailfish_compiled_220409  |2022-04-10|
 |pixel4  |flame          |11 |否| -  |27G |11.0.0_r46_flame_uncompiled_220410   |2022-04-10|
 |pixel4  |flame          |11 |否| -  |43G |11.0.0_r46_flame_compiled_220410     |2022-04-10|
-|pixel4  |flame          |12 |否| -  |32G |12.1.0_r5_flame_uncompiled_220608    |2022-06-08|
-|pixel4  |flame          |12 |否|199G|44G |12.1.0_r5_flame_compiled_220608     |2022-06-08|
+|pixel4  |flame          |12 |否| 97G|28G |12.1.0_r5_flame_uncompiled_220608    |2022-06-08|
+|pixel4  |flame          |12 |否|199G|44G |12.1.0_r5_flame_compiled_220608      |2022-06-08|
 
 ## 用法
 
